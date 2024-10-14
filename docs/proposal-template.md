@@ -2,7 +2,7 @@
 
 # Team members: 
 - Chandra Sekhar Singuru
-- Harshith Salunkay Pradeepkumar
+- Uday Surneni
 - Raghavendra Naidu Nayanuri
 
 # Introduction

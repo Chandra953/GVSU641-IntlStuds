@@ -6,26 +6,37 @@ This document outlines the functional and non-functional requirements for the je
 
 **FR1:**
  1. System should give option for new users to register using their name, email ID and password.
+
 **FR2:** 
  2. The system should check for file type like .jpg, .png and file size when admin is uploading the image.
+
 **FR3:**
  3. The system should show a chat option at bottom of the page to enquire about product to owner.
+
 **FR4:** 
  4. Users should be able to upload images of jewelry to the store's collection, with a preview option before submission.
+
 **FR5:**
  5. The system should display uploaded images on the homepage in a smooth image slider for featured products.
+
 **FR6:**
  6. A chat option should be available at the bottom of the page for users to directly inquire about products with the store owner.
+
 **FR7:**
  7. Home page should have a search bar where users can search for product and category of jewellery with key words.
+
 **FR8:**
  8. The system should send email notifications to users for successful registration, image uploads, and product inquiries.
+
 **FR9:**
  9. The system should use JWT (JSON Web Token) for user authentication and authorization, ensuring secure login sessions.
+
 **FR10:**
  10. Admins should have a dashboard to manage user inquiries, uploaded images, and product listings.
+
 **FR11:**
  11. Users should be able to filter jewelry products by categories such as rings, necklaces, bracelets, etc.
+ 
 **FR12:**
  12. The system should provide users with a responsive interface that works smoothly on mobile devices and tablets.
 

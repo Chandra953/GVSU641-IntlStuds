@@ -18,9 +18,9 @@ This project aims to create an interactive web application for a jewelry store, 
 
 ## Key Features:
 - User login/Authentication
-- Scroll to see the jewlery
-- Serch bar to find products using keywords
-- Chat with Admin for any custom jewlery making
+- Scroll to see the jewelery
+- Search bar to find products using keywords
+- Chat with Admin for any custom jewelery making
 
 
 ## Project Artifacts

@@ -2,7 +2,7 @@
 
 ## Team Members:
 - Chandra Sekhar Singuru
-- Udhay
+- Uday Surneni
 - Raghavendra Naidu Nayanuri
 
 ## Project Overview
@@ -26,8 +26,8 @@ This project aims to create an interactive web application for a jewelry store, 
 ## Project Artifacts
 Here are links to all relevant project documents:
 
-- [Docs](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/docs))
-- [Meetings](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/meetings))
+- [Docs](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/docs)
+- [Meetings](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/meetings)
 - [Artifacts](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/artifacts)
 - [Project Proposal](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/docs/proposal-template.md)
 - [Software Requirements Specification](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/docs/software_requirements_specification.md)

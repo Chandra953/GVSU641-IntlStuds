@@ -5,75 +5,75 @@ This document outlines the functional and non-functional requirements for the je
 # Functional Requirements
 
 **FR1:**
- System should give option for new users to register using their name, email ID and password.
+The system shall offer new users the ability to register by providing name, email address, and password.
 
 **FR2:**
- The system should check for file type like .jpg, .png and file size when admin is uploading the image.
+The system shall validate file types like .jpg and .png and enforce file size limits when an admin uploads an image.
 
-**FR3:**
- The system should show a chat option at bottom of the page to enquire about product to owner.
+**FR3:** 
+The system shall feature a chat option at the page's bottom, enabling users to make inquiries about products with the store owner.
 
 **FR4:**
- Users should be able to upload images of jewelry to the store's collection, with a preview option before submission.
+Users shall have the capability to upload images of jewelry to the store's collection, and the system shall supply a preview option before submission.
 
-**FR5:**
- The system should display uploaded images on the homepage in a smooth image slider for featured products.
+**FR5:** 
+The system shall allow users to register a new account or log in to an existing one using JWT authentication.
 
-**FR6:**
- A chat option should be available at the bottom of the page for users to directly inquire about products with the store owner.
+**FR6:** 
+The system shall ensure that only authenticated users can upload images of jewelry items or access the chat feature with the store owner.
 
-**FR7:**
- Home page should have a search bar where users can search for product and category of jewellery with key words.
+**FR7:** 
+The system shall provide users the ability to search for specific jewelry pieces or filter them based on categories such as rings, necklaces, etc.
 
-**FR8:**
- The system should send email notifications to users for successful registration, image uploads, and product inquiries.
+**FR8:** 
+The system shall allow users to chat directly with the store owner regarding specific jewelry pieces.
 
-**FR9:**
- The system should use JWT (JSON Web Token) for user authentication and authorization, ensuring secure login sessions.
+**FR9:** 
+Users shall be able to send queries or chat directly with the store owner about specific jewelry items.
 
-**FR10:**
- Admins should have a dashboard to manage user inquiries, uploaded images, and product listings.
+**FR10:** 
+Users shall have the option to filter jewelry products by attributes such as material, design, or price range.
 
-**FR11:**
- Users should be able to filter jewelry products by categories such as rings, necklaces, bracelets, etc.
+**FR11:** 
+A detailed view of each jewelry product, including a description, price, and images, shall be shown when a user selects an item from the gallery.
 
 **FR12:**
- The system should provide users with a responsive interface that works smoothly on mobile devices and tablets.
+Administrators shall be able to manage user profiles, uploaded pictures, and product listings.
 
 # Non-Functional Requirements
 
 **NFR1:**
- System must work smoothly even if 100 concurrent users are accessing the site at the same time.
+The system shall operate smoothly even with 100 users accessing the site concurrently.
 
 **NFR2:**
- User personal details and passwords must be encrypted before storing in database using hashing algorithms.
+User personal information and passwords shall be encrypted before being saved in the database using hashing techniques.
 
 **NFR3:**
- Database should be able to scale up to handle increasing data loads of new product images and information.
+The database shall be capable of scaling to accommodate increasing data loads, including new product images and details.
 
 **NFR4:**
- Backup should be taken daily to prevent data loss of users and products including inventory status.
+The system shall conduct daily backups to avoid data loss, covering users, products, and inventory status.
 
 **NFR5:**
- The web application should have a response time of less than 2 seconds for typical page loads, even under heavy load.
+The system shall be scalable to handle an expanding number of clients, and concurrent associations without execution debasement.
 
 **NFR6:**
- The system should be compatible with major browsers (Chrome, Firefox, Safari, Edge) and various screen resolutions.
+The system shall ensure high availability by allowing users to access our platform even during high traffic times.
 
 **NFR7:**
- The system should ensure a 99.9% uptime guarantee for users to access the site with minimal downtime.
+The system shall be modular and maintainable, allowing developers to make necessary changes and fix bugs without affecting other components.
 
-**NFR8:**
- Error handling should be user-friendly, displaying appropriate messages for incorrect file uploads, login failures, and invalid search queries.
+ **NFR8:**
+The system shall be fully responsive, guaranteeing ideal execution and ease of use over different gadgets like desktops, tablets, and smartphones.
 
 **NFR9:**
- Security best practices should be followed, including protection against SQL injection, CSRF, and XSS attacks.
+The system shall maintain compatibility with multiple browsers, including Chrome, Firefox, Safari, and Edge.
 
 **NFR10:**
- Image files should be optimized for fast loading times without compromising quality, ensuring smooth transitions in the image slider.
+ Each page and image gallery shall load within 2 seconds, even under high traffic conditions.
 
 **NFR11:**
- The system should be designed with modular architecture, allowing future enhancements such as adding new features or updating existing ones without significant rework.
+ All sensitive user information, including passwords, shall be encrypted using industry-standard encryption techniques.
 
 **NFR12:**
- The web application should be energy-efficient, minimizing resource consumption on both the client and server sides, ensuring sustainability and reduced operational costs.
+The system shall enforce robust password policies, requiring users to create complex and secure passwords.

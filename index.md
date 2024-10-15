@@ -6,11 +6,7 @@
 - Raghavendra Naidu Nayanuri
 
 ## Project Overview
-The goal of this project is to develop an interactive web application for a jewelry store, providing a seamless user experience for browsing and uploading images. 
-
-The website showcases the store's collection through image galleries, allowing users to view products in high quality. The project focuses on a smooth image slider for featured products. Users can register, log in, and upload images of jewelry pieces. These images are displayed in a dynamic slider format on the homepage, offering an elegant browsing experience. 
-
-The project will utilize modern web technologies with a focus on security through JWT-based authentication and real-time chat functionality with the store owner.
+This project aims to create an interactive web application for a jewelry store, enhancing user experience through high-quality image galleries and a dynamic image slider for featured products. Users can register, log in, and upload their own jewelry images, which are displayed elegantly on the homepage. The application will utilize modern web technologies, ensuring security with JWT-based authentication and incorporating real-time chat functionality with the store owner.
 
 ## Anticipated Technologies
 - **Frontend:** React.js, HTML, CSS
@@ -20,30 +16,21 @@ The project will utilize modern web technologies with a focus on security throug
 - **File Uploads:** Multer
 - **Version Control:** Git
 
-## Method/Approach
-- **Environment Setup:** Set up a React project and connect it to a Node.js backend.
-- **UI/UX Design:** Focus on gathering information from the client and using modern web practices for smooth interaction.
-- **User Authentication:** Implement JWT authentication to secure user login and registration.
-- **Image Upload and Storage:** Use Multer to handle image uploads, storing them in MongoDB and displaying them in a slider.
-- **Testing and Deployment:** Conduct performance and security testing, followed by deployment.
+## Key Features:
+- User login/Authentication
+- Scroll to see the jewlery
+- Serch bar to find products using keywords
+- Chat with Admin for any custom jewlery making
 
-## Estimated Timeline
-- **Weeks 1-2:** Requirements gathering, feasibility analysis, and testing technologies.
-- **Week 3:** Set up development environment and implement authentication.
-- **Week 4-5:** Implement image upload and carousel functionality.
-- **Weeks 6-8:** Testing, debugging, deployment, and project documentation.
-
-## Anticipated Challenges
-- **User Management:** Efficiently managing admin and buyer roles.
-- **Image Handling:** Dealing with large image files, possibly requiring compression techniques.
-- **Security:** Securely managing JWT tokens and encrypting sensitive data.
 
 ## Project Artifacts
 Here are links to all relevant project documents:
 
-- [Project Requirements Document](docs/requirements.pdf)
-- [Design Document](docs/design.pdf)
-- [Testing Report](docs/testing.pdf)
+- [Docs](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/docs))
+- [Meetings](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/meetings))
+- [Artifacts](https://github.com/Chandra953/GVSU641-IntlStuds/tree/main/artifacts)
+- [Project Proposal](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/docs/proposal-template.md)
+- [Software Requirements Specification](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/docs/software_requirements_specification.md)
 
 ## Contact
 Developed by the Intl Studs team. Feel free to reach out to us for further information!

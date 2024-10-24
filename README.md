@@ -5,7 +5,7 @@ The goal of this project is to develop an interactive web application for a jewe
 ## Team Members and Roles
 
 * Chandra Sekhar Singuru
-* Harshith Slaunkay Pradeepkumar
+* Uday Surneni
 * Raghavendra Naidu Nayanuri
 
 ## Prerequisites

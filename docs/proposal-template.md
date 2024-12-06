@@ -19,12 +19,12 @@ This project aims not only to provide a functional and secure platform for users
 
 To build this project, We will be using:
 
-- Frontend: React.js, HTML, CSS
-- Backend: Node.js with Express.js 
-- Database: MongoDB 
-- Authentication: JSON Web Tokens (JWT)
-- File Uploads: Multer
-- Version Control: Git
+- Frontend: Power Apps Studio (drag-and-drop UI builder)
+- Backend: Power Automate (workflows) 
+- Database: SharePoint (for data storage and management)
+- Authentication: SharePoint (integrates with Microsoft 365 authentication)
+- File Uploads: SharePoint Document Library (for file storage)
+- Version Control: Power Apps (native version control for app management)
 
 # Method/Approach
 

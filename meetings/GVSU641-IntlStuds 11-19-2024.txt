@@ -1,0 +1,28 @@
+Team name: Intl Studs
+
+Members present: Ragavendra, Chandra, Uday
+
+Date: 11-19-2024  
+
+Time: 18:30 - 19:00
+
+Discussion points:
+
+- Implementation of power apps home page
+- Create buttons in the home based our client requriments, coditions and formulas.
+- building back-end using share point list and libaries.
+- Develope search and filters for the products
+
+Goals for next week 
+
+- Show client the work done so far
+- Work on group assignments
+- Upload data into sharepoint list and libaries.
+- Develope the contact with us and cart for the home screen
+
+Team contribution
+
+- Raghvendra developed search for the home screen in powerApps.
+- Chandra uploaded items in sharepoint list, libraries and urls for in the site assests.
+- Uday developed buttons for home screen based on the requriment.
+

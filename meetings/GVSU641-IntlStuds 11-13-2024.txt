@@ -1,0 +1,26 @@
+Team name: Intl Studs
+
+Members present: Ragavendra, Chandra, Uday
+
+Date: 11-13-2024  
+
+Time: 18:30 - 19:00
+
+Discussion points:
+
+- Implementation of power apps Chekout
+- Enchancement in home page
+- Upload data into share point list and libaries
+
+Goals for next week 
+
+- Show client the work done so far
+- Work on group assignments
+- Upload data into sharepoint list and libaries.
+- Create columns in sharepoint list based on the client requrimemt.
+
+Team contribution
+
+- Raghvendra developed home screen in powerApps.
+- Chandra created sharepoint list and libraries
+- Uday developed containers for home screen.

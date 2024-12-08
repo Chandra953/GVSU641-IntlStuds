@@ -16,7 +16,7 @@ The Heard Jewelry Store Web Application will help in browsing items, adding to c
 | FR5 | The system shall show a error message, such as "Invalid username or password,".|
 
 
-### Input Ingredients
+### User-Admin Communication
 
 | ID  | Requirement |
 | :-------------: | :----------: |
@@ -73,7 +73,7 @@ The Heard Jewelry Store Web Application will help in browsing items, adding to c
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR31| The system shall handle up to 1,000 users traffic without noticeable lag.|
+| NFR31| The system shall handle multiple users traffic without noticeable lag.|
 | NFR32| Page load times, including images and description with price shall not exceed 3 seconds under less traffic conditions.|
 | NFR33| Backend workflows, such as image and details loading and ma processes, shall complete within 2 seconds.|
 | NFR34|The platform shall dynamically scale to handle traffic when peak usage periods, such as sales events.|  
@@ -125,13 +125,24 @@ The Heard Jewelry Store Web Application will help in browsing items, adding to c
 
 
 ## How will you train people to use it?
-To ensure a smooth transition and user adoption, a comprehensive training program will be implemented. Initially, an online training session will be conducted for all users, providing step-by-step guidance on navigating the platform, searching for recipes, and utilizing personalized features. Additionally, multi-modal training resources including documentation, videos, live sessions, and in-app chatbots to guide users.
+Objective:
+This website has categories of jewelry like rings, necklace, bracelets from which user can filter what they want to purchase. Customers will have a search bar which effectively filters jewelry based on the description of the products. When a user is making a purchase, it should ask for Name and address before taking to payments page.
+
+Training Methods:
+By giving hands on workshop will be conducted for managers to use and update the website features. Step by step process will be given from the login page to add and update product images, update prices and reply to customers who are contacting over the email for custom jewelry with reference images. Separate documentation files will be created for each step and stored in a shared location by managing the access level. Admin and Managers can email one of our team members if there are any issues that need to be fixed on the website or having trouble using any functionalities. 
 
 ## How will you ensure it integrates within their ecosystem / software?
-Our recipe app offers an intuitive interface for easy onboarding. By validating core features like login work, we ensure key requirements are fulfilled. Flexible APIs facilitate data flows between the frontend and backend recommendation systems seamlessly. Cross-platform responsive design allows versatility across devices, thoroughly compatibility tested. Regular feedback refinement improve overall user experience, identifying any outstanding feasibility issues quickly so we can embed this app consistently across existing ecosystems
+Objective: Present technologies are powerful and compatible to many versions. Using the latest technologies like power apps with minimum code and increase the performance, maintenance and feasible for page navigating and secure. 
+1. Environment Compatibility Testing:
+Since Power Apps is web-based we tested by logging from different browsers and devices. All the functionals are working fine in all the platforms. Verified compatibility in different operating systems like windows, Linux, macOS PowerApps are working fine without additional configuration. By Conducted comprehensive testing in PowerApps environment to replicate real-world functions across various configurations.
+2. Data Synchronization:
+SharePoint Integration: There is real time data access between PowerApps and SharePoint. Any updates made in SharePoint will be automatically reflected in apps. Product data, images, and other information will be automated between power apps and front-end using power automation. So, the data will be up-to-date. By setting up dynamic data fetching in power apps will automatically retrieve and update data in frontend from SharePoint. We implement scheduled updates within the power app automation to sync data periodically to maintain the backups and inventory or product details reflected in the application.
+3.Define user Access:
+In SharePoint roles will be created as admin, store manager and customer. By defining the permissions for each role like granting full access to admin. Limited access to edit the quantity or price of the products by store manager. Browsing and buying products for customers. We can implement Microsoft 365 authentication to handle user login and verification for admin account since it’s had more privileges and Users are granted with appropriate role-based access in the apps. Role baes access in PowerApps can be granted to certain pages, actions and functionalities on user roles. Only store managers should have access to update and management features. SharePoint permissions parallel to PowerApps, ensures only user’s specific roles can access or edit SharePoint data.
+
 
 ## How will you ensure that it any discovered issues are resolved?
-An efficient issue resolution process will be implemented to address any identified concerns promptly. Users will have access to a dedicated support portal where they can report issues and receive timely updates on the resolution progress. A tiered support system will be established, with a team of technical experts available to tackle complex issues. Regular system audits and automated monitoring tools will be in place to proactively identify and resolve potential issues before users encounter them. Feedback from users will be actively sought and used to drive continuous improvement, ensuring a robust and reliable food recipe recommendation platform.
+We will be monitoring and identifying the issue or bugs by testing, user feedback, and analytics tools. After finding the issues they shell be prioritized based on the severity and impact on business and security. Once we developers got notified about the issue immediate action will be taken to resolve the issue in PowerApps platform. After the fix Client will be notified and monitoring will be done for a week after fixing the issue. If the issue was not able to fix of effecting the business changes will be reverted to previous backup update. Documentation will be done for the issue resolution steps taken for future reference. 
 
 # Traceability links
 This section shows how the requirements are related to other project artifacts, such as class diagrams, use case diagrams, and activity diagrams, as well as how they relate to artifacts, such as class diagrams.

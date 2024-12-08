@@ -15,56 +15,45 @@ The Heard Jewelry Store Web Application will help in browsing items, adding to c
 | FR4 | Users shall view their privies queries and admin replies in a mail chain history.|
 | FR5 | Admins shall receive notifications for new chat queries to ensure timely responses.|
 
-
-### User-Admin Communication
-
-| ID  | Requirement |
-| :-------------: | :----------: |
-| FR6 | The system shall provide a email interface for users to communicate directly with store admins. |
-| FR7 | Chat queries shall be stored in a Email inbox for future reference and response.  |
-| FR8 | Admins shall receive notifications for new chat queries to ensure timely responses. |
-| FR9 | Users shall able to upload attachments like images or documents to email queries.  |
-| FR10| Admins shall have the option to mark mail threads as resolved or escalate them.|
-
 ### Product Management
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR11 | Admins shall upload and update product details, product images, product description, price, and category using Power Apps. |
-| FR12 | Each product shall support multiple image uploads to a single product, with one designated as the primary image and rest of the images will slide. |
-| FR13 | Products shall be categorized into predefined jewellery types like necklaces, bracelets, rings. These categories will have drop down options.|
-| FR14 | Admins shall have the ability to add and remove product offers for specific seasons or events.  |
-| FR15 | Admins shall add discounts or promotional coupons to desired products. |
+| FR6 | Admins shall upload and update product details, product images, product description, price, and category using Power Apps. |
+| FR7 | Each product shall support multiple image uploads to a single product, with one designated as the primary image and rest of the images will slide. |
+| FR8 | Products shall be categorized into predefined jewellery types like necklaces, bracelets, rings. These categories will have drop down options.|
+| FR9 | Admins shall have the ability to add and remove product offers for specific seasons or events.  |
+| FR10 | Admins shall add discounts or promotional coupons to desired products. |
 
 ### Image Display and Slider 
 
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR16 | The homepage shall feature all the dynamic image with description showcasing the latest or featured products.|
-| FR17 | Users shall control the slide bar using swipe gestures on mobile and scroll arrows on desktop.  |
-| FR18 | Images shall load dynamically from SharePoint database library with optimized performance to ensure a smooth loading experience.  |
-| FR19 | Each product image in the slider shall include product name, size, number of quantities and price.  |
-| FR20 | The slider shall include a category bar to indicate the current slide position|
+| FR11 | The homepage shall feature all the dynamic image with description showcasing the latest or featured products.|
+| FR12 | Users shall control the slide bar using swipe gestures on mobile and scroll arrows on desktop.  |
+| FR13 | Images shall load dynamically from SharePoint database library with optimized performance to ensure a smooth loading experience.  |
+| FR14 | Each product image in the slider shall include product name, size, number of quantities and price.  |
+| FR15 | The slider shall include a category bar to indicate the current slide position|
 
 ### Jewelry Search and Filtering    
 
 | ID | Requirement |
 | :-------------: | :----------: |
-| FR21 | Users shall search for products by type, name or keyword using a Power Apps search box feature. |
-| FR22 | Recently viewed products shall appear on top of the section for user convenience.  |
-| FR23 | Search results shall display only items matches are found by keywords, description.  |
-| FR24 | Users shall add products to cart and come back to home page to continue shopping.|
-| FR25 | The system shall allow users to combine multiple keywords to filters for advanced searches. |
+| FR16 | Users shall search for products by type, name or keyword using a Power Apps search box feature. |
+| FR17 | Recently viewed products shall appear on top of the section for user convenience.  |
+| FR18 | Search results shall display only items matches are found by keywords, description.  |
+| FR19 | Users shall add products to cart and come back to home page to continue shopping.|
+| FR20 | The system shall allow users to combine multiple keywords to filters for advanced searches. |
 
 
 ### User Profile Management    
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR26 | Users shall update their account, including name, email, and address with a Power Apps form.|
-| FR27 | Users shall view their order history, in their account including product details and quantity of purchase.|
-| FR28 | Admins shall add internal notes to user profiles in email for better customer management.|
-| FR29| Users shall manage their notification preferences like promotions and email notifications.|
-| FR30 | A dashboard shall display personalized logs of their purchase history.|
+| FR21 | Users shall update their account, including name, email, and address with a Power Apps form.|
+| FR22 | Users shall view their order history, in their account including product details and quantity of purchase.|
+| FR23 | Admins shall add internal notes to user profiles in email for better customer management.|
+| FR24 | Users shall manage their notification preferences like promotions and email notifications.|
+| FR25 | A dashboard shall display personalized logs of their purchase history.|
 
 ## Non Functional requirements
 
@@ -72,52 +61,52 @@ The Heard Jewelry Store Web Application will help in browsing items, adding to c
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR31| The system shall handle multiple users traffic without noticeable lag.|
-| NFR32| Page load times, including images and description with price shall not exceed 3 seconds under less traffic conditions.|
-| NFR33| Backend workflows, such as image and details loading and ma processes, shall complete within 2 seconds.|
-| NFR34|The platform shall dynamically scale to handle traffic when peak usage periods, such as sales events.|  
-| NFR35|The system shall support large product catalogues with thousands of jewellery product entries without requiring reconfiguration.|
+| NFR26| The system shall handle multiple users traffic without noticeable lag.|
+| NFR27| Page load times, including images and description with price shall not exceed 3 seconds under less traffic conditions.|
+| NFR28| Backend workflows, such as image and details loading and ma processes, shall complete within 2 seconds.|
+| NFR29| The platform shall dynamically scale to handle traffic when peak usage periods, such as sales events.|  
+| NFR30| The system shall support large product catalogues with thousands of jewellery product entries without requiring reconfiguration.|
 
 ### Security and Data Protection
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR36| Sensitive data, such as chat histories and user credentials, shall be private in their own email account. |
-| NFR37| Multi-factor authentication (MFA) shall be enabled for important accounts like admin accounts to enhance security.|
-| NFR38|Login attempts shall be limited to prevent brute-force attacks, protecting user accounts.|
-| NFR39|The system shall log all user and admin activities for audit and compliance purposes.|
-| NFR40|All communications between the system and users shall be encrypted using HTTPS protocols.|
+| NFR31| Sensitive data, such as chat histories and user credentials, shall be private in their own email account. |
+| NFR32| Multi-factor authentication (MFA) shall be enabled for important accounts like admin accounts to enhance security.|
+| NFR33| Login attempts shall be limited to prevent brute-force attacks, protecting user accounts.|
+| NFR34| The system shall log all user and admin activities for audit and compliance purposes.|
+| NFR35| All communications between the system and users shall be encrypted using HTTPS protocols.|
 
 ### Responsiveness and Compatibility
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR41| The application shall be fully interactive, ensuring seamless usage across desktops, tablets, and smartphones. |
-| NFR42| Compatibility shall be maintained with the latest versions of Chrome, Edge, Firefox, and Safari.|
-| NFR43|The user interface (UI) shall dynamically adapt to different screen sizes and devices.|
-| NFR44|Touch screen shall be supported on mobile devices to enhance usability. |
-| NFR45|Accessibility standards, such as WCAG 2.1 compliance, and leave a comment to jeweller shall be implemented to support users with disabilities.|
+| NFR36| The application shall be fully interactive, ensuring seamless usage across desktops, tablets, and smartphones. |
+| NFR37| Compatibility shall be maintained with the latest versions of Chrome, Edge, Firefox, and Safari.|
+| NFR38| The user interface (UI) shall dynamically adapt to different screen sizes and devices.|
+| NFR39| Touch screen shall be supported on mobile devices to enhance usability. |
+| NFR40| Accessibility standards, such as WCAG 2.1 compliance, and leave a comment to jeweller shall be implemented to support users with disabilities.|
 
 
 ### Maintainability and Modularity
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR46| All workflows in Power Automate shall use reusable templates to simplify updates and maintenance. |
-| NFR47| SharePoint lists shall include versioning to track changes and allow rollback if necessary. |
-| NFR48|Documentation shall provide clear instructions for setup, operation, and troubleshooting.|
-| NFR49|The system shall support incremental updates without affecting existing functionalities. |
-| NFR50|Error messages shall include diagnostic codes to help developers quickly identify and fix issues.|
+| NFR41| All workflows in Power Automate shall use reusable templates to simplify updates and maintenance. |
+| NFR42| SharePoint lists shall include versioning to track changes and allow rollback if necessary. |
+| NFR43| Documentation shall provide clear instructions for setup, operation, and troubleshooting.|
+| NFR44| The system shall support incremental updates without affecting existing functionalities. |
+| NFR45| Error messages shall include diagnostic codes to help developers quickly identify and fix issues.|
 
 ### Data Backup and Integrity
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| NFR51| Daily backups shall cover all SharePoint lists, Power Automate workflows, and user data. |
-| NFR52| Backup failures shall trigger immediate alerts to the admin team for resolution.|
-| NFR53| Historical data, including user and order records, shall be retained for up to 3 years.|
-| NFR54| Weekly integrity checks shall verify the consistency of the database and prevent errors.|
-| NFR55| An automated recovery mechanism shall ensure data restoration within 1 hour of a system failure. |
+| NFR46| Daily backups shall cover all SharePoint lists, Power Automate workflows, and user data. |
+| NFR47| Backup failures shall trigger immediate alerts to the admin team for resolution.|
+| NFR48| Historical data, including user and order records, shall be retained for up to 3 years.|
+| NFR49| Weekly integrity checks shall verify the consistency of the database and prevent errors.|
+| NFR50| An automated recovery mechanism shall ensure data restoration within 1 hour of a system failure. |
 
 
 # Change management plan
@@ -200,10 +189,13 @@ This section shows how the requirements are related to other project artifacts, 
 | 3 | [Recipes List]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Navdiagram.png) | FR11, FR12, FR14, FR15,NFR26, NFR27, NFR36, NFR42, NFR45|
 
 # Software Artifacts
-Here we can find all related use case, activity, window navigation, class diagrams and Object diagram of our food recipe recommendation project
+Find all related use case, activity diagram, window navigation diagram,CRC diagram, class diagrams and Object diagram of our Hard Jewelry project.
 
-* [ Use case diagram ](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)
-* [ Activity diagram ]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)
-* [ Class diagram ](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)
-* [ Object diagram ](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)
-* [ Window navigations diagrams ](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Navdiagram.png)
+* [ Use case Admin ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/UseCase_Admin.jpg)
+* [ Use case User ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/UseCase_User.jpg)
+* [ Activity diagram Admin ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/ActivityDiagram_Admin.jpg)
+* [ Activity diagram User ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/ActivityDiagram_User.jpg)
+* [ CRC_Diagram ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/CRC_Diagram.jpg)
+* [ Class diagram ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/Class_Diagram.jpg)
+* [ Object diagram ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/Object_Diagram.jpg)
+* [ Window navigations diagrams ](https://github.com/Chandra953/GVSU641-IntlStuds/blob/main/artifacts/Windows_Nav_Diagram.jpg)

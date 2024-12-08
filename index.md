@@ -14,7 +14,7 @@ This project aims to create an interactive web application for a jewelry store, 
 - **Database:** Sharepoint
 - **Authentication:** Microsoft Entra multifactor authentication (MFA)
 - **File Uploads:** Sharepoint
-- **Version Control:** Git
+- **Version Control:** powerApps
 
 ## Key Features:
 - User login/Authentication

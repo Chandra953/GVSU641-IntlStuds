@@ -5,67 +5,66 @@ This Plan ensures a smooth customer transition for searching, viewing and buying
 The Heard Jewelry Store Web Application will help in browsing items, adding to cart, searching for required jewlery and proceed with the purchase. This website is built using Power Apps, SharePoint document libraries, and Power Automate, the app will feature role-based user access, a smooth image slider, selecting size and quanties of jewlery with real-time email for customer-owner interactions. Images will be uploaded and stored to SharePoint Document Library, ensuring seamless storage and retrieval, while workflows will manage speed backend operations. The project is good with performance, security, and scalability, delivering latest, flexible experience for users and enhancing the store’s online presence.
 
 ## Functional Requirements
-### login/signup
+### User-Admin Communication
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR1 | The system SHALL allow users to log in to the application using their credentials.|
-| FR2 | The system SHALL provide a signup option for new users.|
-| FR3 | The system SHALL allow users to enter details such as name,phone number, and email during the signup process.|
-| FR4 | The System SHALL allow user to save their information.|
-| FR5 | The system shall show a error message, such as "Invalid username or password,".|
+| FR1 | The system shall provide a email interface for users to communicate directly with store admins.  |
+| FR2 | Chat queries shall be stored in a Email inbox for future reference and response.|
+| FR3 | Users shall able to upload attachments like images or documents to email queries. |
+| FR4 | Users shall view their privies queries and admin replies in a mail chain history.|
+| FR5 | Admins shall receive notifications for new chat queries to ensure timely responses.|
 
 
 ### User-Admin Communication
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR6 | The system SHALL allow users to input a list of ingredients they have or wish to use for cooking.|
-| FR7 | The system SHALL validate and process user-inputted ingredients for accurate and relevant recipe recommendations.|
-| FR8 | The system SHALL suggest ingredient substitutions based on user choice.|
-| FR9 | The system SHALL enable users to edit and modify their ingredient preferences.|
-| FR10| The system shall smartly recommend extra ingredients, using user input to improve the variety and completeness of recipes.|
+| FR6 | The system shall provide a email interface for users to communicate directly with store admins. |
+| FR7 | Chat queries shall be stored in a Email inbox for future reference and response.  |
+| FR8 | Admins shall receive notifications for new chat queries to ensure timely responses. |
+| FR9 | Users shall able to upload attachments like images or documents to email queries.  |
+| FR10| Admins shall have the option to mark mail threads as resolved or escalate them.|
 
-### Recommend Recipes
-
-| ID  | Requirement |
-| :-------------: | :----------: |
-| FR11 | The system SHALL recommend recipes based on user-inputted ingredients and preferences.|
-| FR12 | The system SHALL provide personalized recipe suggestions based on user rating and reviews.|
-| FR13 | The system SHALL allow users to filter and sort recipe recommendations based on various criteria. |
-| FR14 | The system SHALL continuously update and add new recipes to the recommendation database.|
-| FR15 | The system SHALL include a feature that encourages users to explore recipes from different cuisines.|
-
-### view Recipe
-
-| ID | Requirement |
-| :-------------: | :----------: |
-| FR16 | The system SHALL allow users to search for recipes based on ingredients.|
-| FR17 | The system SHALL allow users to view detailed information about a specific recipe.|
-| FR18 | The system shall allow the user to save and print the recipe.|
-| FR19 | The system SHALL provide an option for users to view the instructions and other details of a recipe.|
-| FR20 | The system SHALL display the source or origin of each recipe, providing information about where the recipe was sourced.|
-
-### Save&Print Recipe
-
-| ID | Requirement |
-| :-------------: | :----------: |
-| FR21 | The system SHALL allow users to save their favorite recipes for quick access.|
-| FR22 | The system SHALL provide a printing option for users to print out recipes for offline reference.|
-| FR23 | Users SHALL have the capability to create a personalized recipe collection for future use.|
-| FR24 | The system SHALL generate print-friendly recipe layouts, ensuring clear and concise printing.|
-| FR25 | Users SHALL be able to organize and categorize saved recipes based on personal preferences or occasions.|
-
-
-### Feedback
+### Product Management
 
 | ID  | Requirement |
 | :-------------: | :----------: |
-| FR26 | The system SHALL allow users to provide feedback on recipes, including comments.|
-| FR27 | The system SHALL display average ratings for each recipe based on user feedback.|
-| FR28 | The system SHALL enable users to edit or delete their feedback.|
-| FR29| The system SHALL store user feedback information for analysis and improvement.|
-| FR30 | The system SHALL incorporate a feature allowing users to mark recipes as favorites, providing a convenient way to keep track of preferred dishes for future reference.|
+| FR11 | Admins shall upload and update product details, product images, product description, price, and category using Power Apps. |
+| FR12 | Each product shall support multiple image uploads to a single product, with one designated as the primary image and rest of the images will slide. |
+| FR13 | Products shall be categorized into predefined jewellery types like necklaces, bracelets, rings. These categories will have drop down options.|
+| FR14 | Admins shall have the ability to add and remove product offers for specific seasons or events.  |
+| FR15 | Admins shall add discounts or promotional coupons to desired products. |
+
+### Image Display and Slider 
+
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR16 | The homepage shall feature all the dynamic image with description showcasing the latest or featured products.|
+| FR17 | Users shall control the slide bar using swipe gestures on mobile and scroll arrows on desktop.  |
+| FR18 | Images shall load dynamically from SharePoint database library with optimized performance to ensure a smooth loading experience.  |
+| FR19 | Each product image in the slider shall include product name, size, number of quantities and price.  |
+| FR20 | The slider shall include a category bar to indicate the current slide position|
+
+### Jewelry Search and Filtering    
+
+| ID | Requirement |
+| :-------------: | :----------: |
+| FR21 | Users shall search for products by type, name or keyword using a Power Apps search box feature. |
+| FR22 | Recently viewed products shall appear on top of the section for user convenience.  |
+| FR23 | Search results shall display only items matches are found by keywords, description.  |
+| FR24 | Users shall add products to cart and come back to home page to continue shopping.|
+| FR25 | The system shall allow users to combine multiple keywords to filters for advanced searches. |
+
+
+### User Profile Management    
+| ID  | Requirement |
+| :-------------: | :----------: |
+| FR26 | Users shall update their account, including name, email, and address with a Power Apps form.|
+| FR27 | Users shall view their order history, in their account including product details and quantity of purchase.|
+| FR28 | Admins shall add internal notes to user profiles in email for better customer management.|
+| FR29| Users shall manage their notification preferences like promotions and email notifications.|
+| FR30 | A dashboard shall display personalized logs of their purchase history.|
 
 ## Non Functional requirements
 

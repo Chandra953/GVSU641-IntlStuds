@@ -9,11 +9,11 @@
 This project aims to create an interactive web application for a jewelry store, enhancing user experience through high-quality image galleries and a dynamic image slider for featured products. Users can register, log in, and upload their own jewelry images, which are displayed elegantly on the homepage. The application will utilize modern web technologies, ensuring security with JWT-based authentication and incorporating real-time chat functionality with the store owner.
 
 ## Anticipated Technologies
-- **Frontend:** React.js, HTML, CSS
-- **Backend:** Node.js with Express.js
-- **Database:** MongoDB
-- **Authentication:** JSON Web Tokens (JWT)
-- **File Uploads:** Multer
+- **Frontend:** PowerApps
+- **Backend:** Sharepoint and power Automate
+- **Database:** Sharepoint
+- **Authentication:** Microsoft Entra multifactor authentication (MFA)
+- **File Uploads:** Sharepoint
 - **Version Control:** Git
 
 ## Key Features:

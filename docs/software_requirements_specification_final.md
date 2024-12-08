@@ -133,60 +133,51 @@ In SharePoint roles will be created as admin, store manager and customer. By def
 We will be monitoring and identifying the issue or bugs by testing, user feedback, and analytics tools. After finding the issues they shell be prioritized based on the severity and impact on business and security. Once we developers got notified about the issue immediate action will be taken to resolve the issue in PowerApps platform. After the fix Client will be notified and monitoring will be done for a week after fixing the issue. If the issue was not able to fix of effecting the business changes will be reverted to previous backup update. Documentation will be done for the issue resolution steps taken for future reference. 
 
 # Traceability links
-This section shows how the requirements are related to other project artifacts, such as class diagrams, use case diagrams, and activity diagrams, as well as how they relate to artifacts, such as class diagrams.
+This section shows how the requirements are related to other project artifacts, such as class diagrams, use case diagrams, and activity diagrams, as well as how they relate to artifacts.
  
-
 ## Use Case Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| UseCase1 | [login / signup](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR1-FR5 |
-| UseCase2 | [Input Ingredients]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR6-FR10 |
-| UseCase3 | [Recommend recipes](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR11-FR15 |
-| UseCase4 | [View Recipe](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf )| FR16-FR20 |
-| UseCase5 | [Save Recipe](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR21-FR25 |
-| UseCase5 | [Print Recipe](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR21-FR25 |
-| UseCase6 | [Leave Comments](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR26-FR30 |
+| UseCase1 | [Login / Signup](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR1-FR5, NFR31-NFR33 |
+| UseCase2 | [Manage Products]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR6-FR10, NFR41-NFR42 |
+| UseCase3 | [View and Browse Jewelry](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR11-FR15, NFR26-NFR30 |
+| UseCase4 | [Search and Filter Products](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf )| FR16-FR20, NFR36-NFR40 |
+| UseCase5 | [Manage User Profiles](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR21-FR25, NFR43-NFR45 |
+| UseCase6 | [Handle Communication (Email/Chat)](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| FR1-FR5, NFR34-NFR35 |
+| UseCase7 | [Secure and Backup Data](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| NFR46-NFR50 |
+| UseCase8 | [Responsive and Accessible Design](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| NFR36-NFR40 |
+| UseCase9 | [System Performance and Scaling](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/UseCase.png.pdf)| NFR26-NFR30
+ |
 
 
 ## Activity Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1 | [login/signup/User Information](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| FR1-FR5, NFR36, NFR38, NFR39, NFR45, NFR46 , NFR48 |
-| 2 | [Give Ingredients]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| FR6-FR10, NFR48, NFR49 |
-| 3 | [Recommend Recipes]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png )| FR11,FR12,FR14,FR15,NFR31,NFR33,NFR41,NFR47,NFR50 |
-| 4 | [View Recipes]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png )| FR16-19 NFR41, NFR43, NFR44,NFR45 |
-| 5 | [Filter Recipes](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png )| TBD |
-| 6 | [Save & Print Recipes](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png) | FR18, FR21-25,NFR43,NFR44,NFR45 |
-| 7 | [Feedback](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| FR26-30,NFR33,NFR37,NFR38,NFR45,NFR46,NFR47 |
+| Act1| [User Registration/Login](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| FR1, FR21, NFR31-NFR33 |
+| Act2 | [Product Upload and Management]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| FR6-FR10, NFR41-NFR42 |
+| Act3 | [Image Display on Homepage]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png )| FR11-FR15, NFR26-NFR30 |
+| Act4 | [Product Search and Filtering]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png )| FR16-FR20, NFR36-NFR385 |
+| Act5 | [User Profile Updates](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png )| FR21-FR25, NFR43-NFR45 |
+| Act6 | [Real-time Communication](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png) | FR1-FR5, NFR34-NFR35 |
+| Act7 | [Data Backup and Recovery](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| NFR46-NFR50 |
+| Act8 | [Performance Optimization](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| NFR26-NFR30 |
+| Act9 | [Accessibility and Responsiveness](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Activity%20Diagram.drawio.png)| NFR36-NFR40 |
 
-
-## Class Diagram Traceability
-| Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| 1 | [login / signup/User](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)| FR1-5, NFR36, NFR38, NFR39, NFR45, NFR46 , NFR48|
-| 2 | [Preferred ingredients](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)|FR6-FR10, NFR48, NFR49 |
-| 3 | [Filtering engine](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)| FR13,NFR36, NFR37 |
-| 4 | [Recipe Recommendation](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)| FR11,FR12,FR14,FR15,NFR31,NFR32,NFR41,NFR47,NFR50 |
-| 5 | [View recipe](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)| FR16-19, NFR36, NFR38, NFR39,NF42 |
-| 6 | [Feedback](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/class%20diagram-drawio.png)| FR26-30, NFR28,NFR32,NFR33,NFR40,NFR41,NFR42 |
 
 ## Object Diagram Traceability
 | Artifact ID | Artifact Name | Requirement ID |
 | :-------------: | :----------: | :----------: |
-| 1 | [login / signup/User](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR1-5, NFR36, NFR38, NFR39, NFR45, NFR46 , NFR48 |
-| 2 | [Preferred ingredients](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR6-FR10, NFR48, NFR49 |
-| 3 | [Filtering engine]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR13,NFR36, NFR37 |
-| 4 | [Recipe Recommendation](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR11,FR12,FR14,FR15,NFR31,NFR32,NFR41,NFR47,NFR50 |
-| 5 | [View recipe](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR16-19, NFR36, NFR38, NFR39,NF42 |
-| 6 | [Feedback](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR26-30, NFR28,NFR32,NFR33,NFR40,NFR41,NFR42 |
+| Obj1 | [User Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR1-FR5, FR21-FR25, NFR31-NFR33 |
+| Obj2 | [Admin Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR6-FR10, NFR34, NFR41-NFR42 |
+| Obj3 | [Product Object]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR6-FR10, FR11-FR15, NFR41-NFR42 |
+| Obj4 | [Image Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR11-FR15, NFR26-NFR30 |
+| Obj5 | [Search Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR16-FR20, NFR36-NFR40 |
+| Obj6 | [Order Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR21-FR25, NFR43 |
+| Obj7 | [Communication Object (Email/Chat)](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FR1-FR5, NFR34-NFR35 |
+| Obj8 | [Backup Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| NFR46-NFR50 |
+| Obj9 | [UI Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| FFR11-FR15, FR16-FR20, NFR36-NFR40 |
+| Obj10 | [System Object](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/object%20diagram.jpg)| NFR26-NFR30, NFR46-NFR50 |
 
-
-## WIndows Navigation Diagram Traceability
-| Artifact ID | Artifact Name | Requirement ID |
-| :-------------: | :----------: | :----------: |
-| 1 | [Create Account Form](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Navdiagram.png ) | FR1-5, NFR31, NFR33, NFR34, NFR40, NFR41 , NFR43 |
-| 2 | [Select Ingredient Form](https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Navdiagram.png) | FR6-FR10, NFR43, NFR44 |
-| 3 | [Recipes List]( https://github.com/shankymurali/GVSU-CIS-641-4WIZ/blob/main/artifacts/Navdiagram.png) | FR11, FR12, FR14, FR15,NFR26, NFR27, NFR36, NFR42, NFR45|
 
 # Software Artifacts
 Find all related use case, activity diagram, window navigation diagram,CRC diagram, class diagrams and Object diagram of our Hard Jewelry project.
